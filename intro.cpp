@@ -32,6 +32,8 @@ int main(){
 
     // Accessing data members of a class
     Access A;
+    A.accessMe = 18;
+    A.accMe = 'A';
     cout<<"Access Me Integer Value is: "<<A.accessMe<<endl;
     cout<<"Access Me char value is : "<<A.accMe<<endl;
 
@@ -48,7 +50,9 @@ int main(){
     Can be access only inside the class.
 
     Public:
+    Can be access Inside and Outside the class both.
 
-    Can be access Inside and Outside the class both
+    Protected:
+
 
 */
