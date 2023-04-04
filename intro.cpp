@@ -9,7 +9,14 @@ class Hero{
     int val;
 };
 
+// class - access
 
+class Access{
+
+    public:
+    int accessMe;
+    char accMe;
+};
 
 int main(){
 
@@ -23,6 +30,25 @@ int main(){
     cout<<"Size of imp1 object: "<<sizeof(imp1)<<endl;
     
 
+    // Accessing data members of a class
+    Access A;
+    cout<<"Access Me Integer Value is: "<<A.accessMe<<endl;
+    cout<<"Access Me char value is : "<<A.accMe<<endl;
+
 
     return 0;
 }
+
+
+// Access Modifier: - Defines Scope of Variables 
+// By default Private
+
+/*
+    Private:
+    Can be access only inside the class.
+
+    Public:
+
+    Can be access Inside and Outside the class both
+
+*/
